@@ -1,0 +1,17 @@
+{
+     "configurations": [
+        {
+             "name": "(msvc) Launch",
+             "type": "cppvsdbg",
+             "request": "launch",
+             "program": "${fileDirname}\\build\\hello.exe",
+             "args": [],
+             "stopAtEntry": false,
+             "cwd": "${workspaceFolder}\\build",
+             "environment": [],
+             "externalConsole": false,
+             "preLaunchTask": "build"
+        }
+
+     ]
+ }
